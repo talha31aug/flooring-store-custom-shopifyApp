@@ -71,9 +71,6 @@
         </form>
     </div>
     <script>
-        const shop = 'ukflooringdepot.myshopify.com';
-        const accessToken = '';  // Access token from your custom app
-
         // Fetch the active theme
         fetch(`https://${shop}/admin/api/2023-04/themes.json`, {
         method: 'GET',
